@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martin Carcano</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-titulo">
+                <h1>Martin Carcano</h1>
+            </div>
+            <div class="header-content-hamburger">
+                <img src="./public/menu.svg" alt="">
+            </div>
+            <nav>
+                <a href="#about-me">Sobre mí</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Hola, yo soy Martin Carcano</h2>
+            <h3>FullStack Developer</h3>
+            <div class="hero-content-btns">
+                <button class="primary">Contacto</button>
+                <button class="secundary" onclick="location.href='#about-me'">Sobre mí</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="./public/hero-img.jpeg" alt="Foto de perfil">
+        </div>
+    </section>
+    <section class="about-me" id="about-me">
+        <h2>Sobre mí</h2>
+        <div class="about-me-parrafos">
+
+            <p>Soy desarrollador web con experiencia en el diseño e implementación de aplicaciones orientadas a la
+                eficiencia, escalabilidad y crecimiento de negocios digitales. Me especializo en crear soluciones
+                prácticas
+                que potencien la productividad y acompañen a las empresas en su proceso de transformación tecnológica.
+            </p>
+            <p>
+                Me destaco por mi curiosidad, mi capacidad para resolver problemas y mi interés en transformar ideas en
+                soluciones tecnológicas prácticas. Mi objetivo es seguir mejorando mis habilidades y aportar valor en
+                cada
+                proyecto en el que participo.
+            </p>
+        </div>
+    </section>
+    <section class="skills">
+        <div class="skills-container">
+
+            <h2>Skills</h2>
+            <div class="carrusel-track">
+                <div class="carrusel-slide">
+                    <img src="./public/html.png" alt="HTML">
+                    <img src="./public/css.png" alt="CSS">
+                    <img src="./public/js.png" alt="JS">
+                    <img src="./public/ts.png" alt="TS">
+                    <img src="./public/git.png" alt="Git">
+                    <img src="./public/java.png" alt="Java">
+                    <img src="./public/python.png" alt="Python">
+                </div>
+                <!-- duplicado -->
+                <div class="carrusel-slide">
+                    <img src="./public/html.png" alt="HTML">
+                    <img src="./public/css.png" alt="CSS">
+                    <img src="./public/js.png" alt="JS">
+                    <img src="./public/ts.png" alt="TS">
+                    <img src="./public/git.png" alt="Git">
+                    <img src="./public/java.png" alt="Java">
+                    <img src="./public/python.png" alt="Python">
+                </div>
+            </div>
+            <div class="carrusel-track2">
+                <div class="carrusel-slide">
+                    <img src="./public/html.png" alt="HTML">
+                    <img src="./public/css.png" alt="CSS">
+                    <img src="./public/js.png" alt="JS">
+                    <img src="./public/ts.png" alt="TS">
+                    <img src="./public/git.png" alt="Git">
+                    <img src="./public/java.png" alt="Java">
+                    <img src="./public/python.png" alt="Python">
+                </div>
+                <!-- duplicado -->
+                <div class="carrusel-slide">
+                    <img src="./public/html.png" alt="HTML">
+                    <img src="./public/css.png" alt="CSS">
+                    <img src="./public/js.png" alt="JS">
+                    <img src="./public/ts.png" alt="TS">
+                    <img src="./public/git.png" alt="Git">
+                    <img src="./public/java.png" alt="Java">
+                    <img src="./public/python.png" alt="Python">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="proyectos" id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="proyectos-grid">
+            <button class="proyectos-grid-btns">
+                <img src="./public/left.svg" alt="">
+            </button>
+            <div class="proyectos-grid-carrusel">
+                <div class="proyectos-card">
+                    <img src="./public/controlStock.jpg" alt="GestorStock" width="100px" height="auto">
+                    <h3>App para control de Stock</h3>
+                    <div class="proyectos-card-btns">
+                        <button class="primary" onclick="location.href='https://gestor-stock.vercel.app/'">Visitar
+                            sitio</button>
+                        <button class="secundary"
+                            onclick="location.href='https://github.com/MartinIgnacioCarcano/GestorStock-Front'">Ver
+                            repositorio</button>
+                    </div>
+                </div>
+                <div class="proyectos-card">
+                    <img src="./public/drift.png" alt="DriftHosting" width="100px" height="auto">
+                    <h3>DriftHosting web</h3>
+                    <div class="proyectos-card-btns">
+                        <button class="primary" onclick="location.href='https://drifthosting.com/'">Visitar
+                            sitio</button>
+                        <button class="secundary"
+                            onclick="location.href='https://github.com/MartinIgnaCarcano/DriftHosting'">Ver
+                            repositorio</button>
+                    </div>
+                </div>
+                <div class="proyectos-card">
+                    <img src="./public/alcaidiomas.png" alt="alcaidiomas" width="100px" height="auto">
+                    <h3>Alcaidiomas</h3>
+                    <div class="proyectos-card-btns">
+                        <button class="primary"
+                            onclick="location.href='https://landingpage-three-jade.vercel.app/'">Visitar sitio</button>
+                        <button class="secundary"
+                            onclick="location.href='https://github.com/MartinIgnaCarcano/AlcaIdiomas'">Ver
+                            repositorio</button>
+                    </div>
+                </div>
+                <div class="proyectos-card">
+                    <img src="./public/michela.png" alt="michela" width="100px" height="auto">
+                    <h3>Michela sin T.A.C.C.</h3>
+                    <div class="proyectos-card-btns">
+                        <button class="primary" onclick="location.href='https://michela-beige.vercel.app/'">Visitar
+                            sitio</button>
+                        <button class="secundary"
+                            onclick="location.href='https://github.com/MartinIgnaCarcano/Michela'">Ver
+                            repositorio</button>
+                    </div>
+                </div>
+                <div class="proyectos-card">
+                    <img src="./public/agendaPro.png" alt="agendaPro" width="100px" height="auto">
+                    <h3>AgendaPro</h3>
+                    <div class="proyectos-card-btns">
+                        <button class="primary"
+                            onclick="location.href='https://github.com/MartinIgnacioCarcano/AgendaPro'">Visitar
+                            sitio</button>
+                        <button class="secundary"
+                            onclick="location.href='https://github.com/MartinIgnacioCarcano/AgendaPro'">Ver
+                            repositorio</button>
+                    </div>
+                </div>
+            </div>
+            <button class="proyectos-grid-btns">
+                <img src="./public/right.svg" alt="">
+            </button>
+        </div>
+        <div class="proyectos-dots">
+            <span class="proyectos-dot active"></span>
+            <span class="proyectos-dot"></span>
+            <span class="proyectos-dot"></span>
+            <span class="proyectos-dot"></span>
+        </div>
+    </section>
+
+
+    <section class="contacto" id="contacto">
+        <h2>Contacto</h2>
+        <div class="contacto-form">
+            <div class="contacto-form-grid">
+                <input type="text" placeholder="Nombre" id="name">
+                <input type="text" placeholder="Apellido" id="lastName">
+                <input type="text" placeholder="Email" id="email">
+                <input type="text" placeholder="Teléfono" id="phone">
+            </div>
+            <textarea name="Mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+            <div class="contacto-form-btn">
+                <button class="primary" type="submit">Enviar</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Martin Carcano 2025</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
